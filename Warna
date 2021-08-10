@@ -24,31 +24,31 @@ interface ConsoleColors {
     // Underline
     String BLACK_UNDERLINED = "\033[4;30m";  // BLACK
     String RED_UNDERLINED = "\033[4;31m";    // RED
-46    String GREEN_UNDERLINED = "\033[4;32m";  // GREEN
-47    String YELLOW_UNDERLINED = "\033[4;33m"; // YELLOW
-48    String BLUE_UNDERLINED = "\033[4;34m";   // BLUE
-49    String PURPLE_UNDERLINED = "\033[4;35m"; // PURPLE
-50    String CYAN_UNDERLINED = "\033[4;36m";   // CYAN
-51    String WHITE_UNDERLINED = "\033[4;37m";  // WHITE
-52  
-53    // Background
-54    String BLACK_BACKGROUND = "\033[40m";  // BLACK
-55    String RED_BACKGROUND = "\033[41m";    // RED
-56    String GREEN_BACKGROUND = "\033[42m";  // GREEN
-57    String YELLOW_BACKGROUND = "\033[43m"; // YELLOW
-58    String BLUE_BACKGROUND = "\033[44m";   // BLUE
-59    String PURPLE_BACKGROUND = "\033[45m"; // PURPLE
-60    String CYAN_BACKGROUND = "\033[46m";   // CYAN
-61    String WHITE_BACKGROUND = "\033[47m";  // WHITE
-62  
-63    // High Intensity
-64    String BLACK_BRIGHT = "\033[0;90m";  // BLACK
-65    String RED_BRIGHT = "\033[0;91m";    // RED
-66    String GREEN_BRIGHT = "\033[0;92m";  // GREEN
-67    String YELLOW_BRIGHT = "\033[0;93m"; // YELLOW
-68    String BLUE_BRIGHT = "\033[0;94m";   // BLUE
-69    String PURPLE_BRIGHT = "\033[0;95m"; // PURPLE
-70    String CYAN_BRIGHT = "\033[0;96m";   // CYAN
+    String GREEN_UNDERLINED = "\033[4;32m";  // GREEN
+    String YELLOW_UNDERLINED = "\033[4;33m"; // YELLOW
+    String BLUE_UNDERLINED = "\033[4;34m";   // BLUE
+    String PURPLE_UNDERLINED = "\033[4;35m"; // PURPLE
+    String CYAN_UNDERLINED = "\033[4;36m";   // CYAN
+    String WHITE_UNDERLINED = "\033[4;37m";  // WHITE
+  
+    // Background
+    String BLACK_BACKGROUND = "\033[40m";  // BLACK
+    String RED_BACKGROUND = "\033[41m";    // RED
+    String GREEN_BACKGROUND = "\033[42m";  // GREEN
+    String YELLOW_BACKGROUND = "\033[43m"; // YELLOW
+    String BLUE_BACKGROUND = "\033[44m";   // BLUE
+    String PURPLE_BACKGROUND = "\033[45m"; // PURPLE
+    String CYAN_BACKGROUND = "\033[46m";   // CYAN
+    String WHITE_BACKGROUND = "\033[47m";  // WHITE
+  
+    // High Intensity
+    String BLACK_BRIGHT = "\033[0;90m";  // BLACK
+    String RED_BRIGHT = "\033[0;91m";    // RED
+    String GREEN_BRIGHT = "\033[0;92m";  // GREEN
+    String YELLOW_BRIGHT = "\033[0;93m"; // YELLOW
+    String BLUE_BRIGHT = "\033[0;94m";   // BLUE
+    String PURPLE_BRIGHT = "\033[0;95m"; // PURPLE
+    String CYAN_BRIGHT = "\033[0;96m";   // CYAN
 71    String WHITE_BRIGHT = "\033[0;97m";  // WHITE
 72  
 73    // Bold High Intensity
